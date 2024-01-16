@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Border from './components/Formborderred';
+import Login from './components/Login';
+import Signup from './components/Signup';
+import DynamicForm from './components/contactForm/DynamicForm';
+import Form from './components/contactForm/Form';
+import Stepper1 from './components/multiStepperForm/Stepper1';
+import Table from './components/multiStepperForm/Table';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Login /> */}
+      {/* <Signup /> */}
+      {/* <Index1 /> */}
+      {/* <Form /> */}
+      {/* <DynamicForm /> */}
+      {/* <StepperForm /> */}
+      {/* <Border /> */}
+      <Stepper1 />
+      {/* <Table /> */}
     </div>
   );
 }
